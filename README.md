@@ -1,8 +1,8 @@
 # dots
 
 ```bash
-ln -s /home/bryan/.config/kinto/kinto.py kinto.py
-ln -s ~/.vimrc .vimrc
+ln /home/bryan/.config/kinto/kinto.py kinto.py
+ln ~/.vimrc .vimrc
 ```
 
 ## Other
