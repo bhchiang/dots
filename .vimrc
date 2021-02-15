@@ -98,6 +98,11 @@ set splitright
 " Kill all other windows but this one
 nnoremap <C-X> <C-W>o
 
+" C-w _ - make current window fill all space vertically
+" C-w | - make current window fill all space horizontally
+nnoremap <Leader>- <C-w>_
+nnoremap <Leader>= <C-w>=
+
 " Open fern.vim
 nnoremap <Leader>f :Fern . -drawer<CR>
 function! s:init_fern() abort
@@ -121,3 +126,4 @@ augroup END
 " Alt-O - move to next line and insert
 " C-u - delete from cursor to start of line (while in Insert mode)
 " C-w = - set size of all windows equal
+
