@@ -2,6 +2,7 @@
 
 ```bash
 ln /home/bryan/.config/kinto/kinto.py kinto.py
+ln ~/.vim/UltiSnips/tex.snippets tex.snippets
 ```
 
 ## Other
