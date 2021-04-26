@@ -184,6 +184,10 @@ snippet _  "sub" iA
 _{$1}$0
 endsnippet
 
+snippet ^ "pow" iA
+^{$1}$0
+endsnippet
+
 snippet code "code" w
 \begin{lstlisting}[language=Python, basicstyle=\small\ttfamily]
 	$1
@@ -191,7 +195,7 @@ snippet code "code" w
 $0
 endsnippet
 
-snippet filecode "file_code" w
+snippet fcode "file_code" w
 \lstinputlisting[language=Python, basicstyle=\small\ttfamily]{$1}
 $0
 endsnippet
@@ -206,4 +210,26 @@ endsnippet
 
 snippet mbf "math_bold" iA
 \mathbf{$1}$0
+endsnippet
+
+snippet sqrt "sqrt" iA
+\sqrt{$1}$0
+endsnippet
+
+snippet mc "mathcal" iA
+\mathcal{$1}$0
+endsnippet
+
+snippet fig "figure" wA
+\begin{figure}[H]
+  \caption{$2}
+  \centering
+\includegraphics[width=8cm]{$1}
+\end{figure}
+
+$0
+endsnippet
+
+snippet mbb "mathbb" iA
+\mathbb{$1}$0
 endsnippet
